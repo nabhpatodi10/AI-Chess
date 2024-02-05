@@ -96,7 +96,7 @@ blackKingMoves = np.array([[-2.0, -1.0, -1.0, -0.5, -0.5, -1.0, -1.0, -2.0],
 piecePositionScores = {"N":knightScores, "wB":whiteBishopScores, "bB":blackBishopScores, "Q":queenScores, "wR":whiteRookScores, "bR":blackRookScores, "bp":blackPawnMoves, "wp":whitePawnMoves, "wK":whiteKingMoves, "bK":blackKingMoves}
 
 CHECKMATE = 10000
-STALEMATE = 0
+STALEMATE = -10000
 DEPTH = 4
 
 def recursiveHelper(gs, validMoves):
