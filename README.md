@@ -2,7 +2,7 @@
 
 ## Overview
 
-AI Chess is a simple chess game implemented in Python using the Pygame library. It provides a graphical user interface for playing chess against an AI opponent.
+AI Chess is a simple chess game implemented in Python using the Pygame library. It provides a graphical user interface for playing chess against an AI opponent. The AI opponent uses Nega-Max Algorithm to find the best move against the player and uses Alpha-Beta Pruning to prune or discard non-significant moves and branches.
 
 ## Features
 
@@ -16,7 +16,7 @@ AI Chess is a simple chess game implemented in Python using the Pygame library. 
 
 1. Clone the repository to your local machine.
    ```bash
-   git clone https://github.com/YourUsername/AI-Chess.git
+   git clone https://github.com/nabhpatodi10/AI-Chess.git
    ```
 
 2. Install the required dependencies (Pygame).
